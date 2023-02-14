@@ -32,9 +32,7 @@ include "init.php"; ?>
   <center>
   <table width="95%" border="0"><tr><td>
   <center><h1 style="padding-top:20px;margin:0px;"><?php echo SITETITLE ?></h1>
-
   <div style="position:absolute;top:0px;right:3%;"><img src="logo.png" style="width:115px; hspace="10" vspace="10" align="absmiddle"></div>
-
 <?php
 $lastReload = new DateTime();
 echo "Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (UTC)";?>
@@ -42,11 +40,12 @@ echo "Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (UTC)";?>
 <?php
 // Here you can feel free to disable info-sections by commenting out with // before include
 include "txinfox.php";
-//include "sysinfo.php";
-//include "disk.php";
+include "sysinfo.php";
+include "disk.php";
 include "lh.php";
 include "gateways.php";
 include "allheard.php";
-?><center>P25Reflector-Dashboard based on YSFReflector-Dashboard from <a href="https://github.com/dg9vh/YSFReflector-Dashboard" target="_new">GitHub</a><br><br></td></tr></table>
+?>
+<center>P25Reflector-Dashboard based on YSFReflector-Dashboard from <a href="https://github.com/dg9vh/YSFReflector-Dashboard" target="_new">GitHub</a><br><br></td></tr></table>
 </body>
 </html>

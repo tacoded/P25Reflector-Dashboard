@@ -46,6 +46,6 @@ include "lh.php";
 include "gateways.php";
 include "allheard.php";
 ?>
-<center>P25Reflector-Dashboard based on YSFReflector-Dashboard from <a href="https://github.com/tacoded/P25Reflector-Dashboard" target="_new">GitHub</a><br><br></td></tr></table>
+<center>P25Reflector-Dashboard from <a href="https://github.com/tacoded/P25Reflector-Dashboard" target="_new">GitHub</a><br><br></td></tr></table>
 </body>
 </html>

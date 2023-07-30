@@ -6,11 +6,11 @@
   <table id="currtx" class="table table-condensed table-striped table-hover">
    <thead>
     <tr>
-      <th width="20%">Time UTC (Local)</th>
-      <th width="20%">Radio ID</th>
-      <th width="20%">Target</th>
-      <th width="20%">Gateway</th>
-      <th width="20%">TX-Time</th>
+      <th width="30%">Time UTC (Local)</th>
+      <th width="15%">Radio ID</th>
+      <th width="15%">Target</th>
+      <th width="15%">Gateway</th>
+      <th width="15%">TX-Time</th>
     </tr>
    </thead>
    <tbody id="txline">

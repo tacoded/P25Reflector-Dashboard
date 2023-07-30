@@ -13,6 +13,7 @@ include "init.php"; ?>
   <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=0.6,maximum-scale=1, user-scalable=yes">
+	<link rel="shortcut icon" href="logo.png">
 	<meta http-equiv="refresh" content="<?php echo REFRESHAFTER?>">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -30,9 +31,8 @@ include "init.php"; ?>
   </head>
   <body>
   <center>
-  <table width="95%" border="0"><tr><td>
+  <table border="0"><tr><td>
   <center><h1 style="padding-top:20px;margin:0px;"><?php echo SITETITLE ?></h1>
-  <div style="position:absolute;top:0px;right:3%;"><img src="logo.png" style="width:115px; hspace="10" vspace="10" align="absmiddle"></div>
 <?php
 $lastReload = new DateTime();
 echo "Last Reload ".$lastReload->format('Y-m-d, H:i:s')." (UTC)";?>
